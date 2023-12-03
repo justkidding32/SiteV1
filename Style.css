@@ -1,0 +1,81 @@
+/* Basic Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.language-toggle {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.banner {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.services-grid {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.service {
+    max-width: 200px;
+    text-align: center;
+}
+
+.project-gallery {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.project {
+    max-width: 200px;
+}
+
+.contact-form {
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.footer-content {
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Language-specific styles */
+.language-en {
+    /* Styles for English content */
+}
+
+.language-es {
+    /* Styles for Spanish content */
+    display: none; /* Initially hide Spanish content */
+}
